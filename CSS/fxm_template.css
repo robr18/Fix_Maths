@@ -153,12 +153,32 @@ body{
     }
 
     .Ecuacion_text{
+        color:cadetblue;
+        padding-top:5px;
         text-align:center;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size:20px;
     }
 
-    img{
+    /*Dieferentes tipos de posición y tamaño de imagenes*/
+
+    .image_derecha{
         float:right;
         width:400px;
     }
+
+    .image_map{
+        width:500px;
+        padding:10px;
+    }
+    .image_map_right{
+        width:500px;
+        padding:10px;
+        float:right;
+    }
+
+/*Selectores Espeíficos*/
+
+p[rel="rojo"]{
+    color:darkred;
+}
