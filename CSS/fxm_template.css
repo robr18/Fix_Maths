@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran|Quicksand');
+
+body{
+    margin:0;
+}
+
+/*Clase para limpiar los float*/
+
+.clearfix{
+    clear:both;
+}
+
+        /*Logo and Principal Navigation Bar*/
+
+#Principal_Nav {
+    width: 100%;
+    background-color: #1565c0;
+    border-top: 1px solid #003c8f;
+}
+
+#Principal_Nav a{
+    display:inline-block;
+    padding:10px 20px 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    text-decoration:none;
+    font-style:normal;
+    color:white;
+}
+
+    .item_right{
+        float:right;
+    }
+
+    #Principal_Nav a:hover {
+        background-color: #5e92f3;
+        color:white;
+    }
+
+    /*Principal Content of the Page*/
+
+    /*Containers del Contenido Principal*/
+
+#Content_Container{
+    width:1080px;
+    margin:0 auto;
+    padding:0;
+    /*
+    border-left:1px solid rgba(0,0,0,.1);*/
+    border-right:1px solid rgba(0,0,0,.1);
+}
+    #second_container{
+        width:350px;
+        height:100px;
+        background-color:darkcyan;
+        border-radius:0 25px 25px 0;
+        box-shadow:0 10px 10px 5px rgba(0,0,0,.19);
+    }
+
+    #title_container {
+        align-content:center;
+        width: 320px;
+        height:85px;
+        margin-top:2em;
+        background-color: #0BBBD1;
+        border-radius:0 20px 20px 0;
+        box-shadow:rgba(0,0,0,.3) 0 15px 20px 0 rgba(0,0,0,.19) 5px 5px;
+    }
+
+    #Definition_Container{
+        width:980px auto;
+        margin-left:20px;
+        margin-right:20px;
+        background-color:rgba(0,0,0,.19);
+        border-radius:10px;
+    }
+
+    #Post_tip_Container {
+        width: 230px;
+        float: left;
+        background-color: #406d8c;
+        border-radius: 12px 12px;
+    }
+
+    #Subtitle2_Container {
+        width: 350px;
+        height: 100px;
+        background-color: darkcyan;
+        border-radius: 0 25px 25px 0;
+        box-shadow: 0 10px 10px 5px rgba(0,0,0,.19);
+    }
+
+    #Subtitle1_Container {
+        align-content:center;
+        width: 320px;
+        height: 85px;
+        margin-top: 2em;
+        background-color: #0BBBD1;
+        border-radius: 0 20px 20px 0;
+        box-shadow: rgba(0,0,0,.3) 0 15px 20px 0 rgba(0,0,0,.19) 5px 5px;
+    }
+
+    /*Diferentes tipografias en la pagina*/
+
+    .Content_title{
+        padding:0 5px 0 5px;
+        color:white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:70px;
+        text-align:justify;
+    }
+
+    .Content_autor{
+        color:rgba(0,0,0,.3);
+        font-size:15px;
+        font-family:'Quicksand', sans-serif;
+    }
+
+    .Content_text{
+        padding:5px 5px 0 5px;
+        font-size:20px;
+        font-family:'Quicksand', sans-serif;
+        text-anchor:middle;
+        text-align:justify;
+
+    }
+
+    .Definition_text{
+        font-size:20px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+        font-style:italic;
+    }
+
+    .Post_tip_title {
+        padding-left: 8px;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffb300;
+    }
+
+    .Post_tip_text{
+        padding:5px 5px;
+        font-size:18px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:white;
+    }
+
+    .After_floatleft{
+        margin-left:240px;
+        padding-right:5px;
+        font-family:'Quicksand', sans-serif;
+        font-size:20px;
+    }
+
+    .Ecuacion_text{
+        text-align:center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:20px;
+    }
+
+    img{
+        float:right;
+        width:400px;
+    }
