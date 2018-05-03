@@ -1,0 +1,232 @@
+/* Fonts: "Open Sans" */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/* ------------------End of Fonts------------------------- */
+
+/* ----------------- Misc -------------------------------- */
+
+.right-float{
+    float:right;
+}
+
+.left-float{
+    float: left;
+}
+.clear{
+    clear:both;
+}
+
+/* -----------------End of Misc -------------------------- */
+
+/* Variables */
+
+:root {
+    --PrincipalColor    : #1976D2;
+    --ColorPrincipalFont: #212121;
+    --PrincipalFont     : 'Open Sans', sans-serif;
+}
+/* -----------------End of Variables-------------------------- */
+
+body{
+    padding  : 0;
+    margin   : 0;
+    font-size: 16px;
+}
+
+/* -----------------Tipography: Headers ------------------ */
+
+.header-text-index{
+    font-size  : 1.8rem;
+    font-family: var(--PrincipalFont);
+    color      : var(--ColorPrincipalFont);
+
+}
+
+.header-principal-title{
+    font-size  : 3rem;
+    font-family: var(--PrincipalFont);
+    color      : var(--ColorPrincipalFont);
+    text-shadow: 0.3000rem 0.3000rem #BDBDBD;
+}
+
+.signature-content{
+    display    : block;
+    margin-left: 27%;
+}
+
+    /* ------------- Typography: Body Content ----------------- */
+
+    .font-content-body{
+        font-size  : 1.0625rem;
+        font-family: var(--PrincipalFont);
+        color      : var(--ColorPrincipalFont);
+        line-height: 30px;
+        text-align : justify;
+    }
+
+#logo{
+    /*background-color:var(--PrincipalColor);*/
+}
+
+#logo .logo-wrap{
+    height:5.625rem;
+}
+
+/* -----------------End of Logo-------------------------- */
+
+/* ---------------- Principal Bar ----------------------- */
+
+#principal-nav {
+    width: 100%;
+    background-color: var(--PrincipalColor);
+}
+
+    #principal-nav a {
+        text-decoration: none;
+        display        : inline-block;
+        padding        : 0.625rem 1.25rem;
+        margin         : 0;
+        font-family    : var(--PrincipalFont);
+        font-size      : 1.0625rem;
+        color          : white;
+        border-radius  : 1.1rem;
+    }
+
+#principal-nav a:hover{
+    background-color:#054963;
+}
+
+/* ------------------End of Principal Bar-------------------- */
+
+/* ----------------- Content Containers --------------------- */
+
+#content-principal-wrap{
+    margin   : 0 auto;
+    width    : 90%;
+    max-width: 76.875rem;
+
+}
+
+#content-left-wrap {
+    width   : 30%;
+    float   : left;
+    position: -webkit-sticky;
+    position: sticky;
+    top     : 0;
+}
+
+#content-center-wrap{
+    width: 60%;
+    margin-left: 31%;
+
+}
+
+/* ----------------End of Content Containers ---------------- */
+
+/* ----------------- Image Containers --------------------- */
+/*
+.img-container{
+    width:28.125rem;
+    height:15.625rem;
+    resize:both;
+    overflow:auto;
+}
+
+.full-width{
+    width:100%;
+    display:block;
+}
+    */
+.center-img{
+    display     : block;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+#img-map{
+    width   : 90%;
+    margin  : 0 auto;
+    resize  : both;
+    overflow: auto;
+}
+
+#img-map>img{
+    float:left;
+}
+
+/* Signature Icons*/
+.icon-wrap{
+    width : 15.625rem;
+    height: 15.625rem;
+    float : left;
+}
+
+/* ----------------End of Image Containers ---------------- */
+
+/* --------------- Foro Styles ---------------------------- */
+
+#foro-header-principal-font {
+    font-size  : 4.7rem;
+    font-family: var(--PrincipalFont);
+    text-align : center;
+    color      : var(--ColorPrincipalFont);
+    text-shadow: 0.3000rem 0.3000rem #BDBDBD;
+}
+
+/* Estilos de las tarjetas del foro*/
+
+/* Contenedor principal del icono*/
+.card {
+    width : 22%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.title-icon {
+    font-size       : 2.8rem;
+    color           : var(--ColorPrincipalFont);
+    font-family     : var(--PrincipalFont);
+    text-align      : center;
+    text-shadow     : 0.1875rem 0.1875rem #BDBDBD;
+    background-image: url(../images/back.png);
+}
+
+
+/* -------------- Search Square: FORO ---------------------- */
+
+.search-button{
+    width           : 5rem;
+    height          : 3rem;
+    background-color: var(--PrincipalColor);
+    color           : white;
+    border-radius:1.65rem;
+}
+
+.search-field{
+    width        : 50%;
+    margin       : 0 auto;
+    height       : 4rem;
+    border       : 1px solid #BDBDBD;
+    border-radius: 1.65rem;
+    box-shadow:rgba(178, 175, 175, 0.71) 5px 5px;
+}
+
+.padding{
+    padding-left:1.5rem;
+}
+
+/* ---------------- Footer -------------------------------- */
+
+#footer-signatures{
+    width                  : 100%;
+    background-color       : var(--PrincipalColor);
+    border-top-left-radius : 12px;
+    border-top-right-radius: 12px;
+    clear                  : both;
+    position               : absolute;
+    bottom                 : 0;
+}
+/* ---------------- End of Footer ------------------------- */
+
+
