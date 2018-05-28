@@ -1,2 +1,3 @@
 # Fix_Maths
-A page made by students for students
+A page of learning and communication made by students for students
+### Enjoy it!
